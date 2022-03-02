@@ -1,6 +1,6 @@
 :root {
-  --accent: #174180;
-  --accent-light: #3764a7;
+  --accent: #867ae9;
+  --accent-light: #998ceb;
   --pure-white: #fff;
 }
 
@@ -24,6 +24,14 @@ body {
   width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .header {
@@ -72,4 +80,90 @@ body {
 
 .header-menu-link:hover {
   background-color: var(--accent-light);
+}
+
+.intro {
+  padding: 5em 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-left {
+  width: 300px;
+}
+
+.intro-img {
+  width: 250px;
+
+  border-radius: 50px 0 50px 0;
+}
+.intro-right {
+  width: 60%;
+}
+
+.intro-right h1,
+.intro-right h3 {
+  margin: 0 0 10px;
+}
+.contacts {
+  margin-bottom: 60px;
+}
+
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts li {
+  text-align: center;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #998ceb;
+}
+.skills {
+  background-color: var(--accent);
+  color: var(--pure-white);
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  padding: 10px 15px;
+  background-color: var(--accent-light);
+  border-radius: 10px 0px;
+}
+
+.code {
+  text-align: center;
+}
+.code p {
+  font-style: italic;
+}
+
+.code pre {
+  width: 50%;
+  margin: 0 auto;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  text-align: left;
+  font-size: 1.1em;
+  border-radius: 10px;
 }
