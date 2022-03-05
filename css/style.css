@@ -167,3 +167,75 @@ body {
   font-size: 1.1em;
   border-radius: 10px;
 }
+
+.portfolio {
+  padding: 40px 0;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  margin-bottom: 60px;
+}
+
+.works {
+  /* padding: 10px 0 20px 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.works p {
+  margin: 0;
+}
+
+.first,
+.second,
+.third {
+  /* padding-top: 20px; */
+  background-color: #fff;
+  color: var(--accent-light);
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.first img {
+  width: 260px;
+}
+
+.second img {
+  width: 145px;
+}
+
+.third img {
+  width: 260px;
+  height: 193px;
+}
+
+.view {
+  color: var(--accent-light);
+  font-size: 12px;
+  text-decoration-style: dotted;
+  font-style: italic;
+}
+
+.contacts p {
+  padding: 0;
+}
+
+.education {
+  background-color: var(--accent);
+  color: var(--pure-white);
+}
+
+.education li {
+  padding: 10px 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: var(--accent);
+}
