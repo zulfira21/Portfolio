@@ -239,3 +239,100 @@ body {
 .footer a {
   color: var(--accent);
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .intro {
+    padding: 1em;
+    font-size: 14px;
+  }
+  a.header-menu-link {
+    padding: 10px 5px;
+    font-size: 14px;
+  }
+  .code {
+    padding: 15px;
+  }
+
+  .contacts {
+    margin-bottom: 30px;
+  }
+  .education {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    padding: 0;
+  }
+  a.header-logo {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+  a.header-menu-link {
+    font-size: 12px;
+    padding: 3px;
+  }
+  .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .intro-inner {
+    display: block;
+  }
+  .intro-img {
+    width: 100px;
+    padding-bottom: 10px;
+  }
+
+  intro-right h1 {
+    font-size: 16px;
+  }
+  intro-right h3 {
+    font-size: 12px;
+  }
+  .intro p {
+    font-size: 16px;
+  }
+
+  .contacts ul {
+    display: block;
+  }
+
+  h2.section-title {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  .contacts h4,
+  p {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  .portfolio {
+    margin: 0;
+  }
+
+  .works {
+    display: block;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .code {
+    display: none;
+  }
+
+  .education ul {
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+  }
+}
